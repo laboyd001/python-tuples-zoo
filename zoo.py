@@ -6,6 +6,12 @@ print("Here's the zoo tuple:", zoo)
 print("This is the animal found with index 0:", zoo[0])
 
 # Determine if an animal is in your tuple by using a keyword:
+if 'hippo' in zoo:
+    print("The hippo is in the zoo.")
+else:
+    print("The hippo is not in the zoo.")
+
+# Create a variable for each of the animals in your tuple
 (lion, hippo, flamingo) = zoo
 print("Show me a 'hipppo':", hippo)
 
